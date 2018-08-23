@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/permutatrix/rollup-stream.git"
+    "url": "git+https://github.com/mixmaxhq/rollup-stream.git"
   },
   "keywords": [
     "rollup",
@@ -19,6 +19,9 @@
     "stream"
   ],
   "author": "Permutator <permutatorem@gmail.com>",
+  "contributors": [
+    "Eli Skeggs <eli@mixmax.com> (https://mixmax.com)"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mixmaxhq/rollup-stream/issues"
