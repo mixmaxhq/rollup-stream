@@ -8,8 +8,11 @@ node_js:
   - node
 script: npm run ci
 
+before_install:
+  - npm i -g npm
+
 install:
-  - npm i -g npm && npm ci
+  - npm ci
 
 branches:
   only:
