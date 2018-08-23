@@ -9,7 +9,7 @@ node_js:
 script: npm run ci
 
 install:
-  - npm ci
+  - npm i -g npm && npm ci
 
 branches:
   only:
