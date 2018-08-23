@@ -1,8 +1,20 @@
+sudo: false
+
 language: node_js
 node_js:
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-script: npm test
+  - 6
+  - 8
+  - 8.9.3
+  - node
+script: npm run ci
+
+install:
+  - npm ci
+
+branches:
+  only:
+    - master
+
+cache:
+  directories:
+  - $HOME/.npm

@@ -1,1 +1,1 @@
-throw Error("bah! humbug");
+throw Error('bah! humbug');

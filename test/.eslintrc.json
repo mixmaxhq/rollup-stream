@@ -1,0 +1,10 @@
+{
+  "extends": "mixmax/node/spec",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-var": "error"
+  }
+}

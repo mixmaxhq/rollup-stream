@@ -1,0 +1,7 @@
+{
+  "extends": "mixmax/node",
+  "rules": {
+    "no-console": "off",
+    "no-var": "error"
+  }
+}
